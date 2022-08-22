@@ -30,7 +30,7 @@ char* reverseArray(char *array);
 Clone Project
 
 ```bash
-  git clone https://github.com/seff34/String-Parser
+  git clone https://github.com/seff34/String-Reverser
 ```
 
 
