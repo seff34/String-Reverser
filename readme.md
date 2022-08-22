@@ -8,7 +8,7 @@ Reverse String in C Standart Libs.
 ## API Functions
 
 #### Reverse String with Pointer
-```http
+```c
 char* reversePointer(char *array);
 ```
 
@@ -17,7 +17,7 @@ char* reversePointer(char *array);
 | `array` | `char*` | Input and Output Array |
 
 #### Reverse String with Index of Array
-```http
+```c
 char* reverseArray(char *array);
 ```
 
