@@ -1,3 +1,12 @@
+/**
+ * @file      reverse.c
+ * @author    Sefa Eren AKDOGAN
+ * @brief     String Reverser
+ * @version   1.0
+ * @date      2022-07-20
+ * @copyright Copyright (c) 2022
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
