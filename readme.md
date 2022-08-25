@@ -25,6 +25,35 @@ char* reverseArray(char *array);
 | :-------- | :------- | :------------------------- |
 | `array` | `char*` | Input and Output Array |
 
+
+#### Example Code
+```c
+#include "stringReverse.h"
+
+int main(int argc, const char **argv)
+{
+    (void)argc;
+    (void)argv;
+
+    char array[] = "Reverse Me";
+
+    printf("Input                 - > %s\n",array);
+    reversePointer(array);
+    printf("Reverse with Pointer  - > %s\n",array);
+    reverseArray(array);
+    printf("Reverse with Array    - > %s\n",array);
+
+
+    return EXIT_SUCCESS;
+}
+```
+
+
+
+
+
+
+
 ## Download Code
 
 Clone Project
