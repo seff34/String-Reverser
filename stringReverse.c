@@ -1,21 +1,14 @@
 /**
- * @file      reverse.c
+ * @file      stringReverse.h
  * @author    Sefa Eren AKDOGAN
  * @brief     String Reverser
  * @version   1.0
  * @date      2022-07-20
  * @copyright Copyright (c) 2022
  */
+#include "stringReverse.c"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-/**
- * @brief  Reverse String with Pointer
- * @param  [in out] array 
- * @return [char*] Reversed Array
- */
 char* reversePointer(char *array)
 {
     char temp ; 
@@ -30,11 +23,7 @@ char* reversePointer(char *array)
     return array;
 }
 
-/**
- * @brief  Reverse String with Index of Array
- * @param  [in out] array 
- * @return [char*] Reversed Array
- */
+
 char* reverseArray(char *array)
 {
     char temp ; 
@@ -48,24 +37,3 @@ char* reverseArray(char *array)
     }
     return array;
 }
-
-int main(int argc, const char **argv)
-{
-    (void)argc;
-    (void)argv;
-
-    char array[] = "Reverse Me";
-
-    printf("Input                 - > %s\n",array);
-    reversePointer(array);
-    printf("Reverse with Pointer  - > %s\n",array);
-    reverseArray(array);
-    printf("Reverse with Array    - > %s\n",array);
-
-
-    return EXIT_SUCCESS;
-}
-
-
-
-
